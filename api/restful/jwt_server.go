@@ -1,6 +1,7 @@
 package restful
 
 import (
+	"github.com/go-redis/redis/v8"
 	error2 "github.com/quanxiang-cloud/cabin/error"
 	"github.com/quanxiang-cloud/cabin/logger"
 	ginheader "github.com/quanxiang-cloud/cabin/tailormade/header"

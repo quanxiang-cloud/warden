@@ -2,6 +2,7 @@ package restful
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/go-redis/redis/v8"
 	error2 "github.com/quanxiang-cloud/cabin/error"
 	ginheader "github.com/quanxiang-cloud/cabin/tailormade/header"
 	"github.com/quanxiang-cloud/cabin/tailormade/resp"

@@ -6,10 +6,10 @@ import (
 	"github.com/quanxiang-cloud/warden/pkg/jwts"
 	"github.com/quanxiang-cloud/warden/pkg/jwts/models"
 
+	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"
-	"time"
-
 	jsoniter "github.com/json-iterator/go"
+	"time"
 )
 
 var (
